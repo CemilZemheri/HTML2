@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+    text-align: center;
+    border: 2px solid black;
+}
+#par1{
+    color: blue;
+    text-align: center;
+    column-count: 3;
+    column-rule: 3px solid red;
+    font-size: 2rem;
+}
+#par2{
+color: red;
+text-align: left;
+direction: rtl;
+}
+#par3{
+color:green;
+text-align: justify;
+text-indent: 20px;
+letter-spacing: 5px;
+line-height: 1.5;
+text-shadow: 2px 2px 20px black;
+direction: rtl;
+unicode-bidi: bidi-override;
+
+}
+#par4{
+color:coral;
+text-transform: capitalize;
+text-decoration: underline;
+}
+#par5{
+color: firebrick;
+text-transform: uppercase;
+text-decoration: line-through;
+}
