@@ -41,6 +41,7 @@ let truncsonuc=Math.trunc(sonuc)
 console.log(truncsonuc);
 
 // virgülden sonra gelen ondalık kısımda kaç hane göstermesini istiyorsanız tofixed (sayı) kullanıyoruz.
+// Bir sayıya toFixed uygulandığında sonucu strign olur.
 
 let fixedsonuc=sonuc.toFixed(2)
 console.log(fixedsonuc);
@@ -55,4 +56,15 @@ console.log(Math.round(Math.random()*100));
 console.log(Math.random());
 console.log(Math.pow(5,3));
 console.log(Math.sqrt(144));
+
+
+
+console.clear();
+
+// STRING DATA TYPE
+let str1="merhaba dünya"
+let str2='merhaba dünya'
+let str3=`merhaba dünya`
+let str4=new String("Merhaba dünya")
+console.log(str4);
 
