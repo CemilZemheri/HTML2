@@ -35,18 +35,18 @@ body{
 
 .div4{
     background-color: lime;
-    /* width: 50%; */
+    width: 50%;
     width: 60vw;
     height: 10vh;
 
 }
 
 .div5{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .div6{
-    font-size: 2em; /*50px */
+    font-size: 2rem; /*50px */
 }
 
 .div7{

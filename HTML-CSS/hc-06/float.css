@@ -2,7 +2,7 @@
     margin: 0;
 }
 .img-float{
-    width: 40%;
+    width: 30%;
     float: left;
     margin-top: 10px;
     margin-left: 10px;
@@ -11,15 +11,17 @@
 
 .par1{
 background-color: chocolate;
+
 }
 
 .par2{
     clear: left;
+    background-color: aqua;
 }
 
-.clear{
+/* .clear{
     clear: both;
-}
+} */
 
 .container{
     /* border: 2px solid red; */
@@ -32,15 +34,16 @@ background-color: chocolate;
 
 .box1{
     background-color: lime;
-    /* float: left; */
-    width: 20%;
+    float: left;
+    width: 10%;
     height: 10vh;
+    margin: 10px;
 }
 
 .box2{
     background-color: purple;
-    /* float: left; */
-    width: 50%;
+    float: left;
+    width: 30%;
     height: 20vh;
     background-image: url("https://picsum.photos/id/674/600/400");
     background-size: cover;
