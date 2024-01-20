@@ -33,7 +33,9 @@ img{
 }
 img:hover{
     width: 40vh;
-    transition: 0,5s;
+    
+    transition: 0,5s ease;
+    cursor: pointer;
 
 }
 .row h3{
