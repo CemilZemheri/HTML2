@@ -177,3 +177,39 @@ console.log(myVar)
 //? 2 durum var ise ternary
 //? 3-6 arasi durum var ise if-else
 //? 6 dan fazla ise switch-case
+//*********************************************
+//* SWITCH-CASE
+//*********************************************
+
+const s1 = +prompt("1.sayiyi griniz:")
+const islem = prompt("İslemi girinz: +, - , /, *")
+const s2 = Number(prompt("2.sayiyi griniz:"))
+
+//? null,undefined, "", false, NaN, Boolean(0)  => falsy 5 li
+if (isNaN(s1) || isNaN(s2)) {
+  alert("Lütfen gecerli bir sayi girinz:")
+}
+
+if (islem === "/" && s2 === 0) {
+  alert("Sifira bolme hatasi")
+}
+
+let yekun = 0
+switch (islem) {
+  case "+":
+    yekun = s1 + s2
+    break
+  case "-":
+    yekun = s1 - s2
+    break
+  case "/":
+    yekun = s1 / s2
+    break
+  case "*":
+    yekun = s1 * s2
+    break
+  default:
+    alert("Yanlis islem")
+    break
+}
+console.log(`${s1} ${islem} ${s2} = ${yekun.toFixed(3)}`)
