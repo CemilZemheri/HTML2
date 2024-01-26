@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300&family=Judson&display=swap');
+
+*{margin: 0;
+padding:0;
+box-sizing:border-box;
+
+} 
+font-family: 'Bellota', system-ui;
+font-family: 'Judson', serif;
+.container{
+    width: 80%;
+    background-color: aqua;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px black;
+
+}
+#headerup{
+    display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+.icon-bar{
+    display: flex;
+    align-items: center;
+    
+
+}
